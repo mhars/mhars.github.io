@@ -176,6 +176,7 @@ $size-header-pad: 4em;
 	h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -1144,7 +1145,7 @@ $size-header-pad: 4em;
 	#main {
 		margin-left: $size-header-width;
 		max-width: 50em + $size-header-pad;
-		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+		padding: $size-header-pad $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
 		> section {
@@ -1391,7 +1392,7 @@ $size-header-pad: 4em;
 			#main {
 				margin-left: $size-header-width;
 				max-width: none;
-				padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
+				padding: $size-header-pad $size-header-pad $size-header-pad $size-header-pad;
 				width: calc(100% - #{$size-header-width});
 			}
 
