@@ -1,151 +1,200 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+        <meta name="keywords" content="">
 		<title>Michelle Hardi's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Favicon -->
+        <link href="assets/images/favicon.ico" rel="shortcut icon">
+
+		<!-- CSS -->
+		<link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/plugins/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+		<link href="assets/plugins/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
+		<link href="assets/plugins/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+		<link href="assets/css/app.css" rel="stylesheet">
+		<!-- Fonts/Icons -->
+		<link href="assets/plugins/font-awesome/css/all.css" rel="stylesheet">
+		<link href="assets/plugins/themify/themify-icons.min.css" rel="stylesheet">
 	</head>
-	<body class="is-preload">
+	<body data-preloader="2">
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="index.html" class="image avatar"><img src="https://raw.githubusercontent.com/mhars/mhars.github.io/master/images/avatar.JPG" alt="" /></a>
-					<h1>Hello! I'm a <strong>Senior UX Designer</strong> <br/>
-					at <strong>REA Group</strong> based in Melbourne.<br />
-					</h1>
-				</br>
-					<p style="colour: #8d8d8d;">I'm currently working on improving property search experience in Asia and prior to that I worked on mobile apps for commercial property search in Australia.
-					</p>
-					<p>I'm passionate about learning as well as mentoring
-					</p>
-				</div>
-			</header>
+		<header>
+			<nav class="navbar navbar-absolute-dark"><!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
+				<div class="container">
+					<a class="navbar-brand" href="index.html">
+						<!--<h5>MH</h5>-->
+						<img src="assets/images/logo.svg">
+					</a>
+					<!-- Toggle button of Fullscreen menu -->
+					<button class="fullscreen-toggle-btn">
+			            <span class="lines"></span>
+			        </button>
+				</div><!-- end container -->
+			</nav><!-- end navbar -->
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One
-
-					<section id="one">
-						<header class="major">
-							<h2>Human Centered Design<br />
-							 </h2>
-						</header>
-						<p></p>
-						 <ul class="actions">
-							<li><a href="#" class="button primary icon fa-download">Learn More</a></li>
+			<div class="fullscreen-menu bg-black"><!-- Add your background class here -->
+				<div class="fullscreen-menu-wrapper text-center">
+					<div class="position-top">
+						<img src="assets/images/logo-reversed.svg">
+					</div>
+					<div class="position-middle">
+						<ul class="list-unstyled">
+							<li>
+								<h2><a href="index.html">Portfolio</a></h2>
+							</li>
+							<li>
+								<h2><a href="About-me.html">About Me</a></h2>
+							</li>
+							<li>
+								<h2><a href="mailto:hardi.michelle@gmail.com">Contact</a></h2>
+							</li>
 						</ul>
-					</section> -->
+					</div>
+					<div class="position-bottom">
+						<ul class="list-horizontal-unstyled icon-sm">
+							<li><a class="button-circle button-circle-sm button-border-1px button-circle-outline-white" href="#"><i class="fab fa-linkedin"></i></a></li>
+							<li><a class="button-circle button-circle-sm button-border-1px button-circle-outline-white" href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a class="button-circle button-circle-sm button-border-1px button-circle-outline-white" href="#"><i class="fab fa-pinterest"></i></a></li>
+							<li><a class="button-circle button-circle-sm button-border-1px button-circle-outline-white" href="#"><i class="fab fa-instagram"></i></a></li>
+						</ul>
+						<p class="margin-top-20">&copy; 2019 Michelle Hardi, All Rights Reserved.</p>
+					</div>
+				</div><!-- end fullscreen-menu-wrapper -->
+			</div><!-- end fullscreen-menu -->
 
-				<!-- Two -->
-					<section id="two">
-						<h2 style="letter-spacing: 5px; font-size: 1em; colour: #8d8d8d;">RECENT WORK</h2>
-						<div class="row">
-		<!--					<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3><a href="#">Improving Search Experience</a></h3>
-								<p>Potential of property search in Asia.</p>
-							</article>
+			<!-- Page header -->
 
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3><a href="#">Homepage Content</a></h3>
-								<p>Homepage uplift to boost SEO and traffic.</p>
--->
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3><a href="realcommercial-property-app.html">Realcommercial Property App</a></h3>
-								<p>How do you eat an elephant? One bite at a time!</p>
-
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3><a href="#">Add A Little Delight</a></h3>
-								<p>Lottie animation for all!</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3><a href="#">Risus ornare lacinia</a></h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
-						<!--<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>-->
-					</section>
-
-				<!-- Three -->
-
-					<section id="three">
-						<h2>Drop me a message</h2>
-						<p>If you want to get in touch, drop me a line!</p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="https://formspree.io/hardi.michelle@gmail.com">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</br>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" /></li>
-									</ul>
-								</form>
-
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon fa-home"><span class="label">Based in</span></h3>
-										Melbourne<br />
-										Austalia
-									</li>
-									<!--<li>
-										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										000-000-0000
-									</li>-->
-									<li>
-										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="#">hardi.michelle@gmail.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
+			<div class="section-xl">
+				<div class="container">
+					<h1 class="display-4 font-weight-bold margin-bottom-20">Hello!</h1>
+					<h3 class="font-weight-thin no-margin">My name is Michelle Hardi and I'm a Senior UX Designer at REA Group Asia based in Melbourne, Australia.</h3>
+				</div><!-- end container -->
 			</div>
+		</header>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://twitter.com/michelle_hardi" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+		<!-- Portfolio section -->
+		<div class="section-lg no-padding-top">
+			<div class="container">
+				<div class="row portfolio-wrapper spacing-30">
+					<!-- Portfolio box 1 -->
+					<div class="col-12 col-md-6 portfolio-item">
+						<div class="portfolio-box">
+							<div class="portfolio-img">
+								<img src="assets/portfolio/Asia Search Thumb.jpg" alt=""><!-- Image source -->
+							</div>
+							<a href="#"></a><!-- Portfolio Single link -->
+							<div class="portfolio-title">
+								<div>
+									<h5>Property Search Experience in Asia</h5>
+									<span>Search experience</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Portfolio box 2 -->
+					<div class="col-12 col-md-6 portfolio-item">
+						<div class="portfolio-box">
+							<div class="portfolio-img">
+								<img src="assets/portfolio/Filter thumb.jpg" alt=""><!-- Image source -->
+							</div>
+							<a href="#"></a><!-- Portfolio Single link -->
+							<div class="portfolio-title">
+								<div>
+									<h5>Realcommercial.com.au Filters</h5>
+									<span>Mobile app</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Portfolio box 3 -->
+					<div class="col-12 col-md-6 portfolio-item">
+						<div class="portfolio-box">
+							<div class="portfolio-img">
+								<img src="assets/portfolio/Home Thumb.jpg" alt=""><!-- Image source -->
+							</div>
+							<a href="#"></a><!-- Portfolio Single link -->
+							<div class="portfolio-title">
+								<div>
+									<h5>Realcommercial.com.au Home </h5>
+									<span>Mobile app</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Portfolio box 4 -->
+					<div class="col-12 col-md-6 portfolio-item">
+						<div class="portfolio-box">
+							<div class="portfolio-img">
+								<img src="assets/portfolio/lottie thumb.jpg" alt=""><!-- Image source -->
+							</div>
+							<a href="#"></a><!-- Portfolio Single link -->
+							<div class="portfolio-title">
+								<div>
+									<h5>Animation + Lottie</h5>
+									<span>Mobile app + Web</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Portfolio box 5 -->
+					<div class="col-12 col-md-6 portfolio-item">
+						<div class="portfolio-box">
+							<div class="portfolio-img">
+								<img src="assets/portfolio/blobby thumb.jpg" alt=""><!-- Image source -->
+							</div>
+							<a href="#"></a><!-- Portfolio Single link -->
+							<div class="portfolio-title">
+								<div>
+									<h5>Blobby Bobbi</h5>
+									<span>iMessage Stickers</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- end row/portfolio-wrapper -->
 
-						<li><a href="mailto:hardi.michelle@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+			</div><!-- end container -->
+		</div>
+		<!-- end Portfolio section -->
+
+		<footer>
+			<div class="section">
+				<div class="container text-center">
+					<ul class="list-horizontal-unstyled margin-bottom-10">
+						<li><a class="hyperlink-5" href="https://www.linkedin.com/in/michellehardi/">linkedin</a></li>
+						<li><a class="hyperlink-5" href="https://medium.com/@MichelleHardi">Medium</a></li>
+						
 					</ul>
-					<ul class="copyright">
-						<li>&copy; michelle hardi 2019</li>
-					</ul>
-				</div>
-			</footer>
+					<p>&copy; 2019 Michelle Hardi, All Rights Reserved.</p>
+				</div><!-- end container -->
+			</div>
+		</footer>
 
+		<!-- ***** JAVASCRIPTS ***** -->
+		<!-- Libraries -->
+		<script src="assets/plugins/jquery.min.js"></script>
+		<script src="assets/plugins/bootstrap/popper.min.js"></script>
+		<!-- Plugins -->
+		<script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+		<script src="assets/plugins/appear.min.js"></script>
+		<script src="assets/plugins/easing.min.js"></script>
+		<script src="assets/plugins/retina.min.js"></script>
+		<script src="assets/plugins/countdown.min.js"></script>
+		<script src="assets/plugins/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/plugins/isotope.pkgd.min.js"></script>
+		<script src="assets/plugins/jarallax/jarallax.min.js"></script>
+		<script src="assets/plugins/jarallax/jarallax-video.min.js"></script>
+		<script src="assets/plugins/jarallax/jarallax-element.min.js"></script>
+		<script src="assets/plugins/magnific-popup/magnific-popup.min.js"></script>
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Place your API Key in 'YOUR_API_KEY'
+		You can get Google API key here: 'https://developers.google.com/maps/documentation/javascript/get-api-key' -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+		<script src="assets/plugins/gmaps.min.js"></script>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/functions.js"></script>
 	</body>
 </html>
